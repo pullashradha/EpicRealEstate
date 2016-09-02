@@ -1,0 +1,24 @@
+<div class="house-tile-image-overlay">
+  {{#link-to 'show' house}}
+    <img src= {{house.image}} alt= {{house.address}}>
+    {{sold-out house=house}}
+    <div class="image-overlay-content">
+      <div class="row">
+        <h2 class="col-xs-4">${{format-money house.price}}</h2>
+        <h4 class="col-xs-5 details">{{bed-display house.beds}} &#9679; {{bath-display house.baths}} &#9679; {{house.sqft}} sqft</h4>
+      </div>
+      <h3>{{house.address}}</h3>
+      <div class="row">
+        <h4 class="col-xs-3">Monthly Payment</h4>
+        <h4 class="col-xs-7 col-xs-offset-1">${{format-money mortgagePayment}}</h4>
+      </div>
+    </div>
+  {{/link-to}}
+  <div class="heart">
+    {{#if inList}}
+      <span {{action "removeFromFavorites" house}} class="fa fa-heart heart-icon"></span>
+    {{else}}
+      <span {{action "addToFavorites" house}} class="fa fa-heart-o heart-icon"></span>
+    {{/if}}
+  </div>
+</div>

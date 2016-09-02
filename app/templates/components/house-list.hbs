@@ -1,0 +1,19 @@
+<div class="sorting">
+  {{#if isSortDescending}}
+    <button class="btn btn-xs btn-info" {{action 'sortByPriceDesc'}}>Price <i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+  {{else}}
+    <button class="btn btn-xs btn-info" {{action 'sortByPriceAsc'}}>Price <i class="fa fa-long-arrow-down" aria-hidden="true"></i></button>
+  {{/if}}
+  
+  {{#if isSqftDescending}}
+    <button class="btn btn-xs btn-info" {{action 'sortBySqftAsc'}}>Sqft <i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+  {{else}}
+  <button class="btn btn-xs btn-info" {{action 'sortBySqftDesc'}}>Sqft <i class="fa fa-long-arrow-down" aria-hidden="true"></i></button>
+  {{/if}}
+</div>
+
+{{#each sortedHouses as |house|}}
+  <div class="house-tile">
+    {{house-tile house=house}}
+  </div>
+{{/each}}

@@ -1,0 +1,307 @@
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
+@import 'https://fonts.googleapis.com/css?family=Tenor+Sans|Fredericka+the+Great|Tauri';
+body {
+  font-family: serif;
+
+}
+
+////////////////////////////////////// Navbar Styling //////////////////////////////////////
+.hero-unit {
+  height: 25vh;
+  text-align: center;
+  background-image: url("/images/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  h1 {
+    margin-top: 0;
+    color: white;
+    text-shadow: 2px 2px #626262;
+    font-size: 8em;
+    height: 100%;
+    padding-top: 50px;
+    background: rgba(0,0,0,0.3);
+    font-family: 'Tenor Sans', sans-serif;
+  }
+}
+
+.navbar {
+  .navbar-brand {
+    color: #000000;
+    margin-right: 75px;
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .hero-unit h1 {
+    // padding-top: 0;
+    font-size: 6em;
+  }
+}
+
+////////////////////////////////////// Maps Styling //////////////////////////////////////
+.map-display {
+  width: 75%;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.main-map {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  .btn {
+    font-size: 20pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .map-display {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+.key-title {
+  font-size: 15pt;
+}
+
+.key-icon {
+  float:left;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.map-key {
+  ul {
+    list-style: none;
+  }
+  .grocery {
+    margin-top: 12px;
+    margin-bottom: 3.5px;
+  }
+}
+
+////////////////////////////////////// House Tile Styling //////////////////////////////////////
+.house-tile {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  img {
+    width: 100%;
+    max-width: 725px;
+    height: 450px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .house-tile-image-overlay {
+    width: 100%;
+    max-width: 725px;
+    height: 450px;
+    position: relative;
+    .image-overlay-content {
+      color: white;
+      background: rgba(0,0,0,0.5);
+      width: 100%;
+      position: absolute;
+      padding-left: 20px;
+      bottom: 0;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .details {
+        margin-top: 28px;
+      }
+    }
+    .heart {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.heart-icon:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+////////////////////////////////////// Modal Styling //////////////////////////////////////
+.custom-styles-modal {
+  max-width: 795px;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin: auto;
+  .inside-modal {
+    max-width: 100%;
+    margin-left: -10px;
+    margin-right: -100px;
+    margin-top: -10px;
+    .content {
+      margin: 70px;
+    }
+    .tile-search {
+      margin-left: 15px;
+    }
+    img {
+      width: 780px;
+    }
+    .key-li {
+      list-style-type: none;
+      margin-left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      img {
+        width: 30px;
+      }
+    }
+    .row {
+      margin-top: 25px;
+      .on-sale {
+        margin-top: 25px;
+        margin-left: 30px;
+      }
+      .price {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+.modal-close {
+  font-size: 2em;
+  color: lightgray;
+  opacity: 0;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.modal-close:hover {
+  opacity: 0;
+  // cursor: pointer;
+}
+
+////////////////////////////////////// Buttons Styling //////////////////////////////////////
+.add-new-house {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+  margin-bottom: 150px;
+}
+
+.tile-search {
+  .btn-primary {
+    font-size: 15pt;
+    margin-left: -15px;
+  }
+}
+
+.btn-danger {
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 15pt;
+}
+
+#buy-house-btn {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+////////////////////////////////////// Forms Styling //////////////////////////////////////
+form {
+  margin-left: 75px;
+  margin-right: 75pt;
+  h2 {
+    font-size: 22pt;
+  }
+  label {
+    margin-top: 15px;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  .btn-success {
+    margin-top: 25px;
+    font-size: 15pt;
+    margin-bottom: 75px;
+  }
+}
+
+.update-house {
+  width: 1100px;
+  margin-left: -785px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+#buy-house-form {
+  margin-left: 0;
+}
+
+//////////////////////////////////// Favorites & Houses Bought  & Admin Styling ////////////////////////////////////
+.page-title {
+  text-align: center;
+  font-size: 45pt;
+  margin-bottom: 50px;
+}
+
+.page-subtitle {
+  margin-bottom: 85px;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.houses-list {
+  list-style: none;
+  margin-bottom: 50px;
+  h2, li {
+    font-size: 18pt;
+    margin-left: 75px;
+    margin-top: 75px;
+  }
+  li {
+    margin-top: 0;
+  }
+  .glyphicon-remove {
+    color: #B22222;
+  }
+  img {
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+  }
+}
+
+.glyphicon-remove:hover, .glyphicon-pencil:hover {
+  cursor: pointer;
+}
+
+////////////////////////////////////// Price & Sqft Styling //////////////////////////////////////
+.sorting{
+  padding-right: 15%;
+  text-align: right;
+  .btn-info {
+    font-size: 15pt;
+    margin-right: 15px;
+  }
+}
+
+.sold-out {
+  margin-top: -315px;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  color: red;
+  -webkit-text-stroke: 1px black;
+  h1 {
+    font-size: 10em;
+    text-align: center;
+  }
+}

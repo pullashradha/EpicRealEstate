@@ -1,0 +1,56 @@
+{{#if updateHouseForm}}
+  <div class="update-house">
+    <form class="form-group">
+      <h2>Update House</h2>
+      <div>
+        <label>Address</label>
+        {{input value=house.address id="address" class="form-control"}}
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <label>Latitude</label>
+          {{input value=house.latitude id="latitude" class="form-control" type="number"}}
+        </div>
+        <div class="col-xs-4">
+          <label>Longitude</label>
+          {{input value=house.longitude id="longitude" class="form-control" type="number"}}
+        </div>
+        <div class="col-xs-4">
+          <label>Neighborhood Name</label>
+          {{input value=house.neighborhood id="neighborhood" class="form-control"}}
+        </div>
+      </div>
+      <div>
+        <label>Image URL</label>
+        {{input value=house.image id="image" class="form-control"}}
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <label>Number of Beds</label>
+          {{input value=house.beds id="beds" class="form-control" type="number"}}
+        </div>
+        <div class="col-xs-6">
+          <label>Number of Baths</label>
+          {{input value=house.baths id="baths" class="form-control" type="number"}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <label>Sqft.</label>
+          {{input value=house.sqft id="sqft" class="form-control" type="number"}}
+        </div>
+        <div class="col-xs-6">
+          <label>Price</label>
+          {{input value=house.price id="price" class="form-control" type="number"}}
+        </div>
+      </div>
+      <div>
+        <label>Description</label>
+        {{textarea value=house.description id="description" class="form-control"}}
+      </div>
+      <button {{action "updateHouse" house}} class="btn btn-success">Save</button>
+    </form>
+  </div>
+{{else}}
+  <span {{action "showUpdateHouseForm"}} class="glyphicon glyphicon-pencil col-xs-3"></span>
+{{/if}}

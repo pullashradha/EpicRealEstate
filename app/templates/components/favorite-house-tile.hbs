@@ -1,0 +1,13 @@
+{{#each favoriteHouses.favoriteHousesList as |house|}}
+  {{#if (gte favoriteHouses.favoriteHousesList.length 2)}}
+    <div class="col-xs-6">
+      <div class="house-tile">
+        {{house-tile house=house}}
+      </div>
+    </div>
+  {{else}}
+    <div class="house-tile">
+      {{house-tile house=house}}
+    </div>
+  {{/if}}
+{{/each}}

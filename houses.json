@@ -1,0 +1,85 @@
+{ "houses": [{
+    "address": "5105 NE 22nd Ave, Portland, OR 97211",
+    "latitude": 45.5597747,
+    "longitude": -122.645365,
+    "neighborhood": "NE",
+    "image": "http://photos1.zillowstatic.com/p_f/IS6qffw0euiqh91000000000.jpg",
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1883,
+    "price": 420000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "2533 SE Belmont St, Portland, OR 97214",
+    "latitude": 45.516609,
+    "longitude": -122.6415206,
+    "neighborhood": "SE",
+    "image": "http://photos3.zillowstatic.com/p_f/ISeorhfu3wq7s90000000000.jpg",
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2688,
+    "price": 775000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "2723 NE 9th Ave, Portland, OR 97212",
+    "latitude": 45.5425667,
+    "longitude": -122.6655917,
+    "neighborhood": "NE",
+    "image": "http://photos3.zillowstatic.com/p_f/IS2net23an5z940000000000.jpg",
+    "beds": 4,
+    "baths": 4,
+    "sqft": 3794,
+    "price": 950000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "4131 NE Cleveland Ave, Portland, OR 97211",
+    "latitude": 45.5538068,
+    "longitude": -122.6681068,
+    "neighborhood": "NE",
+    "image": "http://photos2.zillowstatic.com/p_f/IS2netmegd8mf51000000000.jpg",
+    "beds": 3,
+    "baths": 2,
+    "sqft": 2104,
+    "price": 350000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "2853 N Emerson Ct, Portland, OR 97217",
+    "latitude": 45.5603077,
+    "longitude": -122.6979049,
+    "neighborhood": "N",
+    "image": "http://photos2.zillowstatic.com/p_f/ISad8keaus5kcl0000000000.jpg",
+    "beds": 3,
+    "baths": 3,
+    "sqft": 2643,
+    "price": 499000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "2717 SE Pine St, Portland, OR 97214",
+    "latitude": 45.520972,
+    "longitude": -122.6465887,
+    "neighborhood": "SE",
+    "image": "http://photos2.zillowstatic.com/p_f/IS2fonul9lkwsh1000000000.jpg",
+    "beds": 4,
+    "baths": 2,
+    "sqft": 2085,
+    "price": 499900,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "address": "3060 NW Cornell Rd, Portland, OR 97210",
+    "latitude": 45.5318737,
+    "longitude": -122.715389,
+    "neighborhood": "NW",
+    "image": "http://photos1.zillowstatic.com/p_f/ISli8thfeex5wr1000000000.jpg",
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2959,
+    "price": 975000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }]
+}

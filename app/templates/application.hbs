@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+  <div class="hero-unit">
+    <h1 class="main-title">Epic Real Estate</h1>
+  </div>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      {{#link-to 'index' class="navbar-brand"}}Home{{/link-to}}
+      {{#link-to 'favorite-houses' class="navbar-brand"}}Favorite Houses{{/link-to}}
+      {{#link-to "houses-bought" class="navbar-brand"}}Houses Bought{{/link-to}}
+      {{#link-to "admin" class="navbar-brand"}}Admin{{/link-to}}
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<div>
+  {{outlet}}
+</div>
+<br>
+<br>

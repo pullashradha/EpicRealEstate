@@ -1,0 +1,8 @@
+{{#each housesBought.boughtHousesList as |boughtHouse|}}
+  <div class="houses-list row">
+    <img src={{boughtHouse.image}} alt={{boughtHouse.address}} class="col-xs-4"/>
+    <div class="col-xs-8">
+      <h2>{{boughtHouse.address}}: ${{format-money boughtHouse.price}}</h2>
+    </div>
+  </div>
+{{/each}}
